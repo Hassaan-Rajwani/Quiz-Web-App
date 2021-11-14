@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    width: 68.5%;
+    background-image: linear-gradient(to right , skyblue , rgb(224, 91, 224));
+    padding: 10px;
+    overflow: hidden;
+}
+.score_heading{
+    margin-right: 10px;
+}
+
+.point{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    width: 100%;
+    font-size: 2rem;
+}
+#score{
+    border: 2px inset;
+    background-color: rgb(234, 116, 238);
+    width: 10%;
+    height: 4.5vh;
+    text-align: center;
+}
+.content{
+    margin: auto;
+    background-color: powderblue;
+    width: 70%;
+    height: 145vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.q_a{
+    font-family: sans-serif;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+button{
+    width: 80px;
+    font-size: 20px;
+    background-color: cadetblue;
+    border: 2px inset;
+    cursor: pointer;
+    color: white;
+}
+input{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 250px) and (max-width:450px) {
+    nav{
+        width: 90%;
+        position: fixed;
+        z-index: 10000;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .score_heading{
+        font-size: 20px;
+    }
+    
+#score{
+    width: 25%;
+    height: 3vh;
+}
+.content{
+    position: relative;
+    top: 40px;
+    width: auto;
+    height: 130vh;
+    /* position: sticky */
+}
+h2{
+    font-size: 16px;
+    position: relative;
+    right: 20px;
+}
+button{
+    position: relative;
+    right: 30px;
+}
+}

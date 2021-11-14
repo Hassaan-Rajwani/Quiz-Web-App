@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz UI</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <h1>Quiz App</h1>
+        <div class="point">
+        <h2 class="score_heading">Your Score</h2>
+        <h2 id="score"></h2>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="q_a">
+            <h2>1) Who is the father of computer ??</h1>
+                <br>
+                <h3><input name="q1" type="radio"> Herman Hollerith<br></h3>
+                <h3><input name="q1" type="radio"> Ada Byron<br></h3>
+                <h3><input name="q1" type="radio"> Blaise Pascal<br></h3>
+                <h3><input id="a1" name="q1" type="radio"> Charles Babbage</h3>
+                <br>
+                <h4 id="show" style="position: relative; left: 19px;"></h4>
+                <br>
+                <br>
+            <h2>2) A desktop computer is also known as ??</h1>
+                <br>
+                <h3><input id="a2" name="q2" type="radio"> Pc<br></h3>
+                <h3><input name="q2" type="radio"> Laptop<br></h3>
+                <h3><input name="q2" type="radio"> Mainframe<br></h3>
+                <h3><input name="q2" type="radio"> Palmtop</h3>
+                <br>
+                <h4 id="show1" style="position: relative; left: 19px;"></h4>
+                <br>
+                <br>
+                <h2>3) 	Which computer is the most powerful computer ??</h1>
+                    <br>
+                <h3><input name="q3" type="radio"> Mini<br></h3>
+                <h3><input name="q3" type="radio"> Micro<br></h3>
+                <h3><input id="a3" name="q3" type="radio"> Super<br></h3>
+                <h3><input name="q3" type="radio"> Mainframe</h3>
+                <br>
+                <h4 id="show2" style="position: relative; left: 19px;"></h4>
+                <br>
+                <br>
+                <h2>4) 	IC stands for ??</h1>
+                    <br>
+                <h3><input name="q4" type="radio"> Internal Circuit<br></h3>
+                <h3><input name="q4" type="radio"> Internal Computer<br></h3>
+                <h3><input name="q4" type="radio"> Integrated Computer<br></h3>
+                <h3><input id="a4" name="q4" type="radio"> Integrated Circuit</h3>
+                <br>
+                <h4 id="show3" style="position: relative; left: 19px;"></h4>
+                <br>
+                <br>
+                <center><button onclick="submit()">Submit</button></center>
+            </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
